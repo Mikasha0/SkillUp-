@@ -1,11 +1,13 @@
 import React from "react";
+import "../home.css";
+import logo from "../Images/logo.webp";
 
 export default function Home() {
   return (
     <div className="wallpaper" id="home">
-      <div className="container">
-        <div className="row align-left justify-content-center align-content-around">
-          <div className="col-12 col-lg col-md-12 m-auto">
+      <div className="container-fluid px-5" style={{ position: "relative" }}>
+        <div className="row align-left ">
+          <div className="col-12 col-md-12 col-lg-6 m-auto">
             <div className="text-wrapper md-pb">
               <p
                 className="mbr-section-subtitle mbr-fonts-style mb-2 align-left display-18"
@@ -34,7 +36,7 @@ export default function Home() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                 eiusmod tempor incididunt labore dolore magna aliqua.
               </p>
-              <div className="input-group mb-5">
+              <div className="input-group" style={{ marginBottom: "5rem" }}>
                 <input
                   className="form-control"
                   placeholder="Search Your Courses"
@@ -49,6 +51,37 @@ export default function Home() {
             </div>
           </div>
           <div className="col-12 col-md-12 col-lg-6 image-wrapper"></div>
+        </div>
+        <div
+          className="col-12 col-md-12 col-lg-11"
+          style={{
+            position: "absolute",
+            top: "100%",
+            left: "50%",
+            transform: "translate(-50%,-50%)",
+          }}
+        >
+          <div className="card">
+            <div
+              className="card-body "
+              style={{
+                display: "flex",
+                justifyContent: "space-around",
+                alignItems: "center",
+              }}
+            >
+              <img className="logo" src={logo} alt=".." />
+              <span>
+                <h1>coursera</h1>
+              </span>
+              <span>
+                <h1>coursera</h1>
+              </span>
+              <span>
+                <h1>coursera</h1>
+              </span>
+            </div>
+          </div>
         </div>
       </div>
     </div>

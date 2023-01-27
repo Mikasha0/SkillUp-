@@ -17,10 +17,10 @@ code {
   transition: 0.5s;
   box-shadow: 0px 0px 10px 5px #e9e4e5;
 }
-.card:hover{
+/* .card:hover{
   transition: 0.5s; 
   box-shadow: 0px 0px 10px 5px #e9e4e5;
-} 
+}  */
 .wallpaper{
   background-image: url(./Images/wallpaper.jpg);
   background-size: cover;
