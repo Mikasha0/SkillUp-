@@ -1,6 +1,6 @@
 import React from "react";
 import "../home.css";
-import logo from "../Images/logo.webp";
+// import logo from "../Images/logo.webp";
 
 export default function Home() {
   return (
@@ -52,7 +52,7 @@ export default function Home() {
           </div>
           <div className="col-12 col-md-12 col-lg-6 image-wrapper"></div>
         </div>
-        <div
+        {/* <div
           className="col-12 col-md-12 col-lg-11"
           style={{
             position: "absolute",
@@ -64,25 +64,25 @@ export default function Home() {
           <div className="card">
             <div
               className="card-body "
-              style={{
-                display: "flex",
-                justifyContent: "space-around",
-                alignItems: "center",
-              }}
+              // style={{
+              //   display: "flex",
+              //   justifyContent: "space-around",
+              //   alignItems: "center",
+              // }}
             >
               <img className="logo" src={logo} alt=".." />
               <span>
-                <h1>coursera</h1>
+                <h1 style={{ color: "blue" }}>coursera</h1>
               </span>
               <span>
-                <h1>coursera</h1>
+                <h1 style={{ color: "red" }}>Udemy</h1>
               </span>
               <span>
-                <h1>coursera</h1>
+                <h1 style={{ color: "green" }}>unacademy</h1>
               </span>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

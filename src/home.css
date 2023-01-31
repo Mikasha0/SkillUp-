@@ -5,3 +5,19 @@
 .navbar-scrolled{
     background-color: #0A2357;
 }
+/* #home .card .card-body{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+}
+@media (max-width: 767px) {
+    #home .card .card-body {
+      display: block;
+      justify-content: center;
+      width: 50%;
+      margin: 0 auto;
+    }
+    #home .card .card-body h1{
+        align-items: center;         
+    }
+  } */

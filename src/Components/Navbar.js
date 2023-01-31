@@ -15,6 +15,7 @@ export default function Navbar() {
       }
     });
   });
+  
   return (
     <div className="">
       <nav className="navbar navbar-expand-lg  fixed-top py-3 navbar-scrolled">
